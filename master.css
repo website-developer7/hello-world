@@ -5,3 +5,24 @@ h1{
     color: navy;
     margin-left: 20px;
 }
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 10px; */
+}
+.item{
+    width: 250px;
+    background: #e90a0a45;
+    margin: 5px;
+}
+.item img{
+    display: block;
+    width: 100%;
+}
+.item figure figcaption{
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight: bold;
+}
